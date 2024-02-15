@@ -10,9 +10,9 @@ export const metadata: Metadata = {
     'theme-color': '#0d1117',
     "color-scheme": "dark only",
     "og:type": "website",
+    "google-site-verification": "SCiAEGoilvCf_5f9X4r6TBqBpKT08jKnH7DY14kfhCE" 
   },
   icons: "/logo-s.png",
-  google-site-verification: "SCiAEGoilvCf_5f9X4r6TBqBpKT08jKnH7DY14kfhCE" 
 };
 export default function RootLayout({
   children,
