@@ -11,7 +11,7 @@ export default function Home() {
           <h3 className="sm:body-reguler body-medium mb-6 text-start bg-black-300 x-paddings p-3 rounded-md text-teal-400">
             Frontend Developer
           </h3>
-          <h1 className="sm:heading2 body-reguler mb-6 text-start w-full text-white max-lg:w-[400px] max-lg:heading3">
+          <h1 className="sm:heading2 body-reguler mb-6 text-start w-full text-white max-lg: max-lg:heading3">
             Selamat Datang di Jasa Pembuatan Website Profesional
           </h1>
           <p className="body-reguler mb-6 text-start w-full text-gray-400">
@@ -48,14 +48,14 @@ export default function Home() {
         id="about"
       >
         <div className="flex-start mr-[0.5rem] flex-col padding w-full">
-          <div className="flex-start paddings bg-black-400 shadow-lg shadow-black-300 flex-col mb-6 rounded-2xl w-full max-lg:w-[400px]">
+          <div className="flex-start paddings bg-black-400 shadow-lg shadow-black-300 flex-col mb-6 rounded-2xl w-full">
             <h1 className="text-teal-400 sm:base-bold mb-6">Desain Kreatif</h1>
             <p>
               Saya menciptakan desain website yang menarik dan sesuai dengan
               identitas Anda.
             </p>
           </div>
-          <div className="flex-start paddings bg-black-400 flex-col mb-6 rounded-2xl w-full max-lg:w-[400px]">
+          <div className="flex-start paddings bg-black-400 flex-col mb-6 rounded-2xl w-full">
             <h1 className="text-teal-400 sm:base-bold mb-6">
               Website Responsif
             </h1>
@@ -64,7 +64,7 @@ export default function Home() {
               semua perangkat.
             </p>
           </div>
-          <div className="flex-start paddings bg-black-400 flex-col mb-6 rounded-2xl w-full max-lg:w-[400px]">
+          <div className="flex-start paddings bg-black-400 flex-col mb-6 rounded-2xl w-full">
             <h1 className="text-teal-400 sm:base-bold mb-6">Optimisasi SEO</h1>
             <p>
               Saya membantu meningkatkan visibilitas online bisnis Anda melalui
@@ -77,13 +77,13 @@ export default function Home() {
             <h3 className="sm:body-reguler body-medium mb-6 text-start rounded-md text-teal-400 max-lg:body-regular">
               Perkenalkan
             </h3>
-            <h1 className="sm:heading2 body-reguler mb-6 text-start w-[800px] text-white max-lg:heading3 body-reguler">
+            <h1 className="sm:heading2 body-reguler mb-6 text-start w-full text-white max-lg:heading3 body-reguler">
               Hallo! Saya Ryo Saputra
             </h1>
-            <h1 className="sm:base-regular body-reguler mb-6 text-start w-[800px] text-white">
+            <h1 className="sm:base-regular body-reguler mb-6 text-start w-full text-white">
               Mengapa Memilih Ryo Jasa Pembuatan Website?
             </h1>
-            <p className="body-text mb-6 text-start w-[500px] text-gray-400 max-lg:w-[350px]">
+            <p className="body-text mb-6 text-start w-full text-gray-400">
               Saya adalah seorang profesional dengan perhatian besar pada
               detail. Saya mengerti bahwa sebagai individu, Anda memiliki
               kebutuhan yang unik. Itulah mengapa saya mengambil pendekatan yang
@@ -99,10 +99,10 @@ export default function Home() {
         id="portfolio"
       >
         <div className="flex-col">
-          <h1 className="sm:heading2 body-reguler mb-6 text-start w-[800px] text-white max-lg:heading3">
+          <h1 className="sm:heading2 body-reguler mb-6 text-start w-full text-white max-lg:heading3">
             Portfolio
           </h1>
-          <p className="body-text mb-6 text-start w-[600px] text-gray-400 max-lg:w-[350px]">
+          <p className="body-text mb-6 text-start w-full text-gray-400">
             Lihat Hasil Kerja Saya Saya bangga dengan hasil kerja saya dan ingin
             Anda juga melihatnya. Telusuri portofolio saya untuk melihat beragam
             proyek yang telah saya selesaikan untuk berbagai klien individu.
@@ -127,7 +127,7 @@ export default function Home() {
         <div className="flex-between max-lg:flex-col flex-start">
           <div className="flex-col w-full">
             <h1 className="sm:heading2 y-paddings max-lg:heading3">Hubungi Saya</h1>
-            <p className="w-[400px] text-gray-400 max-lg:w-[350px]">
+            <p className="w-full text-gray-400">
               Jadikan Saya Mitra Digital Anda Jangan ragu untuk menghubungi saya
               untuk mendiskusikan ide dan kebutuhan Anda. Saya siap membantu
               mewujudkan visi online Anda menjadi kenyataan. Mulailah langkah
@@ -136,7 +136,7 @@ export default function Home() {
           </div>
           <div className="flex-col flex-start leading-9 y-paddings">
             <p className="sm:heading3 bosy-regular mb-6 max-lg:heading3">Informasi</p>
-            <h3 className="w-full text-gray-400 mb-6 max-lg:w-[350px]">
+            <h3 className="w-full text-gray-400 mb-6">
               Jl. Puntadewa No.12, Bunton, Sidorahayu, Kec. Wagir, Kabupaten
               Malang, Jawa Timur 65158
             </h3>

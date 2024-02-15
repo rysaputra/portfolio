@@ -14,14 +14,14 @@ const publicFolder = "/images";
 
 export function CarouselDemo() {
   return (
-    <Carousel className="w-full flex max-w-lg bg-cover border-0 max-lg:min-w-full">
+    <Carousel className="w-full pt-6 flex bg-cover border-0">
       <CarouselContent>
         {Array.from({ length: 3 }).map((_, index) => (
           <CarouselItem key={index}>
-            <div className="p-1">
+            <div className="">
               <Card>
-                <CardContent className="flex animate-pulse aspect-square items-center flex-center p-6 max-lg:aspect-video flex-center">
-                  <div className="h-full w-full">
+                <CardContent className="flex animate-pulse aspect-video p-6 flex-center">
+                  <div className="w-full h-full">
                     <Image
                       src={`${publicFolder}/content${index + 1 }.jpg`}
                       className="h-full rounded-md"
@@ -36,8 +36,6 @@ export function CarouselDemo() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
     </Carousel>
   );
 }
