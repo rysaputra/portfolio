@@ -10,7 +10,8 @@ export const metadata: Metadata = {
     'theme-color': '#0d1117',
     "color-scheme": "dark only",
     "og:type": "website",
-  }
+  },
+  icons: "/logo-s.png"
 };
 
 export default function RootLayout({
