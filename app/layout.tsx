@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Head from "next/head";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -13,10 +12,8 @@ export const metadata: Metadata = {
     "og:type": "website",
   },
   icons: "/logo-s.png",
+  google-site-verification: "SCiAEGoilvCf_5f9X4r6TBqBpKT08jKnH7DY14kfhCE" 
 };
-<Head>
-<meta name="google-site-verification" content="SCiAEGoilvCf_5f9X4r6TBqBpKT08jKnH7DY14kfhCE" />
-</Head>
 export default function RootLayout({
   children,
 }: Readonly<{
