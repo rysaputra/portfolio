@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   title: "Ryo Saputra",
   description: "Portfolio",
   other: {
