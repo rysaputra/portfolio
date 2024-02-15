@@ -5,7 +5,7 @@ import * as React from "react";
 
 export default function Home() {
   return (
-    <main className="flex-center paddings mx-auto w-full max-w-screen-2xl flex-col">
+    <main className="flex-center paddings mx-auto w-full max-w-screen-2xl flex-col scroll-smooth md:scroll-auto">
       <section className="flex-center min-h-screen w-full flex max-md:flex-col-reverse max-md:nav-padding">
         <div className="flex-start relative min-h-[250px] w-full flex-col rounded-xl text-center">
           <h3 className="sm:body-reguler body-medium mb-6 text-start bg-black-300 x-paddings p-3 rounded-md text-teal-400">
@@ -141,13 +141,13 @@ export default function Home() {
               Malang, Jawa Timur 65158
             </h3>
             <ul className="flex-start flex-col max-md:hidden md:gap-x-10">
-              <li className="body-text text-teal-400 mb-3 !font-bold">
+              <li className="body-text text-teal-400 mb-3 hover:text-white !font-bold transition duration-700 ease-in-out">
                 <Link href="#about">Tentang saya</Link>
               </li>
-              <li className="body-text !font-normal mb-3 hover:text-teal-400">
+              <li className="body-text !font-normal mb-3 hover:text-teal-400 transition duration-700 ease-in-out">
                 <Link href="#portfolio">Portofolio</Link>
               </li>
-              <li className="body-text !font-normal mb-3 hover:text-teal-400">
+              <li className="body-text !font-normal mb-3 hover:text-teal-400 transition duration-700 ease-in-out">
                 <Link href="#hubungikami">Hubungi saya</Link>
               </li>
             </ul>
