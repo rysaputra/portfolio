@@ -12,7 +12,6 @@ export const metadata: Metadata = {
     "og:type": "website",
   },
   icons: "/logo-s.png",
-  verificationMeta: '<meta name="google-site-verification" content="SCiAEGoilvCf_5f9X4r6TBqBpKT08jKnH7DY14kfhCE" />',
 };
 
 export default function RootLayout({
